@@ -1,4 +1,13 @@
 package com.sda.vendingmachine.bank;
 
-public class Coin {
+import java.lang.invoke.DirectMethodHandle$Holder;
+
+public enum Coin {
+
+    PENNY,
+    NICKLE,
+    DIME,
+    QUARTER,
+    HALF,
+    ONE_DOLLAR
 }
